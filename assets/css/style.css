@@ -28,6 +28,7 @@ img#logo{
 
 nav{
     display: flex;
+    align-content: center;
     background-color: #320238;
     height: 12%;
 }

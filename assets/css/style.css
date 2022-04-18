@@ -1,7 +1,5 @@
 *{
-    /*aqui pega TODAS as tags do html*/
     margin: 0;
-    padding: 0;
 }
 
 body{
@@ -52,6 +50,7 @@ div.navBoxes{
 
 main{
     height: 80%;
+    width: 100%;
     background-color: #320238;
 }
 
@@ -95,13 +94,14 @@ article.momentIllustrationBox{
 }
 
 button{
-    width: 20%;
+    width: fit-content;
     background-color: #f13b74;
     border: #f13b74 2px inset;
     border-radius: 5%;
     color: #320238;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding: 1%;
 }
 
 p{
@@ -116,6 +116,6 @@ img#humor{
 }
 
 footer{
-    height: 5%;
+    height: 10%;
     background-color: #05e5f2;
 }

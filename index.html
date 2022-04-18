@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <div id="logoBox">
+            <figure>
+                <img id="logo" src="./assets/images/Premier-League-logo-500x210.png" alt="Your browser couldn't load the page logo.">
+            </figure>
+        </div>
+
+        <nav>
+            <div class="navBoxes" style="background-color: #00f280;">History</div>
+            <div class="navBoxes">Rules</div>
+            <div class="navBoxes">Teams</div>
+            <div class="navBoxes">Matches</div>
+            <div class="navBoxes">Awards</div>
+            <div class="navBoxes">Partners</div>
+        </nav>
+
+    </header>
+    <main>
+        <br>
+
+        <section id = "news">
+
+            <article class="momentBox">
+                <h2 id = "momentName">Premier League historic moments</h2>
+                <p id = "momentDescription"></p>
+                <p>Click the button below to see Premier League's historic moments</p>
+                <button onmouseover= handle_mouseOver()
+                onmouseleave= handle_mouseLeave()
+                onclick = handle_alteraHumor() id="humorButton">Change moment</button>
+            </article>
+
+            <article class="momentIllustrationBox">
+                <figure>
+                    <img id = "humor" src="./assets/images/trophy.jpg" alt="Your browser couldn't load the image.">
+                </figure>
+            </article>
+
+        </section>
+
+    </main>
+    <footer></footer>
+</body>
+<script src = "./assets/js/script.js"></script>
+</html>

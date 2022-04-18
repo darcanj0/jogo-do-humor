@@ -1,5 +1,5 @@
 let i = 0;
-let imgs_srcs = ["../assets/images/aguero.jpg", "../assets/images/leicester.jpg", "assets/images/arsenal.jpg", "assets/images/cantona.jpg"];
+let imgs_srcs = ["assets/images/aguero.jpg", "assets/images/leicester.jpg", "assets/images/arsenal.jpg", "assets/images/cantona.jpg"];
 let moments_titles = ["Aguero's trophy winning goal", "Leicester's fairy tail in 2015/16 season",
 "The feared and invincible Arsenal in 2003/04 season", "Cantona's fury kick"];
 let moments_descriptions = [`Rewind to May 2012, and it's the last day of the season.
